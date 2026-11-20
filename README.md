@@ -1,4 +1,4 @@
-# Juego de Peleas BH6: 2.5D fighting game combat core
+# Counterhit: 2.5D fighting game combat core
 
 A Street Fighter / Tekken style 2.5D fighter made in Unity 6. It is a solo gameplay-programming project:
 the art is placeholder on purpose, and the work is in the combat underneath. That means a state machine,
@@ -15,8 +15,6 @@ and hitstop.
 | **Engine** | Unity 6 (6000.3.16f1), URP, New Input System, PhysX `CharacterController` |
 | **Language** | C# |
 | **Status** | Playable prototype: local 1v1 in a training room, two robot fighters |
-
-<!-- TODO: add credits for the robot models and animation clips. -->
 
 ## Controls
 
@@ -96,7 +94,19 @@ All gameplay code lives in [`Assets/_Project/Scripts`](Assets/_Project/Scripts).
 - The state machine ticks in `Update`. Moving it to the fixed step would be the first step towards
   rollback netcode.
 
+## Credits
+
+I wrote all the gameplay code in `Assets/_Project/Scripts`. The art and audio come from free asset packs:
+
+- **Fighter model:** Y Bot from [Adobe Mixamo](https://www.mixamo.com).
+  [License notes](Assets/_Project/Art/Characters/Mixamo/LICENSE_Mixamo.txt)
+- **Animations:** clips from Adobe Mixamo and from the Fighter Pack Bundle FREE by ExplosiveLLC.
+- **Hit sounds:** Impact Sounds by [Kenney](https://www.kenney.nl) (CC0).
+- **Music:** "Space City" by MintoDog, from [OpenGameArt](https://opengameart.org/content/space-city) (CC0).
+- **Training stage:** Fighting Game Level: Basic Training Stage, from the
+  [Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/fighting-game-level-basic-training-stage-159610).
+
 ---
 
-**Víctor Cárdenas** · Gameplay Programmer · [GitHub](https://github.com/Vixtorbir) ·
-[LinkedIn](https://www.linkedin.com/in/victor-cardenas-gamedev/)
+**Víctor Cárdenas** · Game developer · [Portfolio](https://vixtorbir.github.io/) ·
+[GitHub](https://github.com/Vixtorbir) · [LinkedIn](https://www.linkedin.com/in/victor-cardenas-gamedev/)
